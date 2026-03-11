@@ -14,11 +14,11 @@ BRIGHT_YELLOW="\e[93m"
 BRIGHT_BLUE="\e[94m"
 BRIGHT_MAGENTA="\e[95m"
 BRIGHT_CYAN="\e[96m"
-BRIGHT_BLACK="\e[90m"          # added missing definition
+BRIGHT_BLACK="\e[90m"
 
 RESET="\e[0m"
 
-# Color array (includes BRIGHT_BLACK now)
+# Color Array
 colors=(
     "$RED" "$GREEN" "$CYAN" "$MAGENTA"
     "$BRIGHT_RED" "$BRIGHT_GREEN" "$BRIGHT_YELLOW" "$BRIGHT_BLUE"
